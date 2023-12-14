@@ -25,7 +25,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Mk9WPsn" data-context="false" ><a href="//imgur.com/a/Mk9WPsn"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/Mk9WPsn"  ><a href="//imgur.com/a/Mk9WPsn">HelloWorld</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 https://imgur.com/a/Mk9WPsn
 
 <!-- Replace this with whatever GIF tool you used! -->
