@@ -28,7 +28,7 @@ Here's a walkthrough of implemented features:
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/Mk9WPsn"  ><a href="//imgur.com/a/Mk9WPsn">HelloWorld</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 https://imgur.com/a/Mk9WPsn
-
+<img src='HelloWorld.gif' title='HelloWorld' width='' alt='Video Walkthrough' />
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with KAP  
 <!-- Recommended tools:
