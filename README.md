@@ -25,8 +25,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
-
-[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />](https://github.com/coderYL2337/HelloWorld/blob/master/HelloWorld.gif)
+https://github.com/coderYL2337/HelloWorld/blob/master/HelloWorld.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with KAP  
