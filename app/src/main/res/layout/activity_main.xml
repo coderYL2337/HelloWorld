@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloWorldLabel"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#6A1B9A"
+        android:fontFamily="@font/beth_ellen"
+        android:text=" Hello World"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/foodImageView"
+        android:layout_width="292dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="63dp"
+        android:contentDescription="pizzaimage"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/helloWorldLabel"
+        app:srcCompat="@drawable/food" />
+
+    <TextView
+        android:id="@+id/introTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/aladin"
+        android:text="@string/intro_yan"
+        android:textColor="?attr/colorTertiary"
+        android:textSize="20sp"
+        app:emojiCompatEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/foodImageView" />
+
+    <Button
+        android:id="@+id/helloButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="SAY HELLO!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/introTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
